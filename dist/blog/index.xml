@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Filecoin Security</title>
+    <link>https://examplesite.com/blog/</link>
+    <description>Recent content in Blog on Filecoin Security</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coordinated Disclosure Policy</title>
+      <link>https://examplesite.com/blog/post-2/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/post-2/</guid>
+      <description>A researcher can share details of a vulnerability after a fix has been applied and our security team has provided permission to disclose.</description>
+    </item>
+    
+    <item>
+      <title>From Signac to Matisse</title>
+      <link>https://examplesite.com/blog/post-4/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/post-4/</guid>
+      <description>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</description>
+    </item>
+    
+    <item>
+      <title>Response &amp; Disclosure Process</title>
+      <link>https://examplesite.com/blog/post-1/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/post-1/</guid>
+      <description>We have a Coordinated Disclosure policy.
+A researcher can share details of a vulnerability after a fix has been applied and our security team has provided permission to disclose.</description>
+    </item>
+    
+    <item>
+      <title>Security Updates</title>
+      <link>https://examplesite.com/blog/post-3/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/post-3/</guid>
+      <description>Spring &amp;amp; Summer 2020 - Prior to third-party security audits conducted prior to mainnet launch in October 2020, the Security Research Fellowship invited prolific Fileoin contributors to research and discuss security issues.</description>
+    </item>
+    
+  </channel>
+</rss>
