@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on Filecoin Security</title>
-    <link>https://examplesite.com/search/</link>
+    <link>/search/</link>
     <description>Recent content in Search on Filecoin Security</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://examplesite.com/search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/search/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

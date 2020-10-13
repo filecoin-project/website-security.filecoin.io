@@ -3,49 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://examplesite.com/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/blog/post-2/</loc>
+    <loc>/blog/post-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/blog/post-4/</loc>
+    <loc>/blog/post-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/blog/post-1/</loc>
+    <loc>/blog/post-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/blog/post-3/</loc>
+    <loc>/blog/post-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://examplesite.com/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://examplesite.com/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>https://examplesite.com/sample-page/</loc>
+    <loc>/sample-page/</loc>
   </url>
   
   <url>
-    <loc>https://examplesite.com/search/</loc>
+    <loc>/search/</loc>
   </url>
   
 </urlset>
