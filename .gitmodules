@@ -1,0 +1,3 @@
+[submodule "bounty-website/themes/twenty-twenty-hugo"]
+	path = bounty-website/themes/twenty-twenty-hugo
+	url = https://github.com/themefisher/twenty-twenty-hugo
