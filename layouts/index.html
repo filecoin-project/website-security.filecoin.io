@@ -1,0 +1,141 @@
+{{ define "main" }}
+
+<article class="post-20 page type-page status-publish has-post-thumbnail hentry" id="post-20">
+  {{ with .Site.Params.banner }}
+  <header class="entry-header has-text-align-center header-footer-group">
+    <div class="entry-header-inner section-inner medium">
+      <h5 class="entry-title">{{ .heading | markdownify }}</h5>
+      <p class="entry-title">{{ .para1 | markdownify }}</p>
+      <h5 class="entry-title">{{ .para2 | markdownify }}</h5>
+    </div>
+  </header>
+  {{ end }}
+
+  {{ with.Site.Params.banner.image}}
+  <figure class="featured-media">
+    <div class="featured-media-inner section-inner">
+      <img width="1200" height="769" src="{{ . | absURL }}"
+        class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+        sizes="(max-width: 1200px) 100vw, 1200px" />
+    </div>
+  </figure>
+  {{end}}
+
+  <div class="post-inner thin">
+    <a name="contact-us"></a>
+    <div class="entry-content">
+      <div class="wp-block-group alignwide">
+        <div class="wp-block-group__inner-container">
+          <h2 class="has-text-align-center">Vulnerability Reporting</h2>
+          <p class="entry-content main">Almost anything you find that is a bug in the codebase should be filed as an issue on Github. The exception is if you find a security vulnerability. If you discover a security issue, please bring it to our attention right away.</p>
+          <p class="entry-content main"><strong>We’ve created two main channels for reporting:</strong></p>
+          <ul class="entry-content main">
+            <li>Send an email to <strong>security@filecoin.org</strong>. This email is monitored everyday. If you prefer, you can also use <a href="https://github.com/filecoin-project/community/blob/master/public.key" target="_blank">our GPG key</a> to encrypt sensitive information.</li>
+            <li>Alternatively, request to join the <strong>filecoin-sec</strong> team on <a href="https://keybase.io">Keybase</a>, where we can set up a private channel to discuss. Please DO NOT file a public issue or discuss the vulnerability in public places like Slack, Twitter, etc.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <br/><br/><br/><br/>
+
+    <div class="wp-block-group alignwide has-background" style="background-color:#ffffff">
+      <div class="wp-block-group__inner-container">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container">
+            <h2 class="has-text-align-center">Bug Bounty</h2>
+            <p class="has-text-align-center">We invite community members and security resesarchers to help find bugs in our protocol and node implementations.</p>
+            <p class="has-text-align-center">Reported security vulnerabilities are eligible for a Bug Bounty.</p>
+            <div class="wp-block-button aligncenter"><a class="wp-block-button__link"
+                href="http://localhost:1313/contact/">Bug Bounty Program</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wp-block-columns columns alignwide">
+      <div class="column">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container">
+            <figure class="wp-block-image alignfull size-full"><img src="http://localhost:1313/images/2020-three-quarters-4.png" alt="Security Audits" class="wp-image-37"></figure>
+            <h3>Security Audits</h3>
+            <p>Protocol implementations have undergone third-party audits. They are linked in the Filecoin Specification under Implementation Status.</p>
+            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://spec.filecoin.io/#intro__implementations-status">Audit Reports</a></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container">
+            <figure class="wp-block-image alignfull size-full"><img src="http://localhost:1313/images/2020-three-quarters-2.png" alt="Security Updates" class="wp-image-37"></figure>
+            <h3>Security Updates</h3>
+            <p>We will announce security issues and patches on this page as well as via Filecoin Community Slack and Twitter.</p>
+            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="http://localhost:1313/blog/post-3/">Security Updates</a></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container">
+            <figure class="wp-block-image alignfull size-full"><img src="http://localhost:1313/images/2020-three-quarters-3.png" alt="Disclosure Policy" class="wp-image-37"></figure>
+            <h3>Disclosure Policy</h3>
+            <p>We have a <strong>Coordinated Disclosure</strong> policy. A researcher can share details of a vulnerability after a fix has been applied and our security team has provided permission to disclose.</p>
+            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="http://localhost:1313/blog/post-2/">Disclosure Policy</a></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="wp-block-group">
+          <div class="wp-block-group__inner-container">
+            <figure class="wp-block-image alignfull size-full"><img src="http://localhost:1313/images/2020-three-quarters-4.png" alt="Respose Process" class="wp-image-37"></figure>
+            <h3>Response Process</h3>
+            <p>We will make a best effort to address all vulnerabilities within 90 days from submission. Please keep security vulnerabilities private until we have had a chance to address them.</p>
+            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="http://localhost:1313/blog/post-1/">Response Process</a></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+      
+      {{ if .Site.Params.gallery.enable }}
+      {{ with .Site.Params.gallery }}
+      <figure class="wp-block-gallery alignwide columns-2 is-cropped">
+        <ul class="blocks-gallery-grid">
+          {{ range .gallery_item }}
+          <li class="blocks-gallery-item">
+            <figure><img src="{{ .image | absURL }}"/></figure>
+          </li>
+          {{ end }}
+        </ul>
+      </figure>
+      {{ end }}
+      {{ end }}
+    </div><!-- .entry-content -->
+
+    <div class="entry-content">
+      <div class="wp-block-group alignwide">
+        <div class="wp-block-group__inner-container">
+          <h4 class="has-text-align-center">Safe Habor</h4>
+          <p class="entry-content safe-harbor">We consider security research conducted in alignment with our Disclosure Policy to be protected by Safe Harbor:</p>
+          <ul class="entry-content safe-harbor">
+            <li>Authorized in view of any applicable anti-hacking laws, and we will not initiate or support legal action against you for accidental, good faith violations of this policy</li>
+            <li>Authorized in view of relevant anti-circumvention laws, and we will not bring a claim against you for circumvention of technology controls</li>
+            <li>Exempt from restrictions in our Acceptable Usage Policy that would interfere with conducting security research, and we waive those restrictions on a limited basis</li>
+            <li>Lawful, helpful to the overall security of the Internet, and conducted in good faith</li>
+          </ul>
+          <p class="entry-content safe-harbor">You are expected to comply with all applicable laws. If legal action is initiated by a third party against you and you have complied with this policy, we will take steps to make it known that your actions were conducted in compliance with this policy.</p>
+          <p class="entry-content safe-harbor">If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please submit a report through one of our Official Channels before going any further.</p>
+          <br/>
+          <p class="entry-content safe-harbor"><small>These are based on recommendations from <a href="https://disclose.io/">disclose.io</a> to accelerate adoption of vulnerability disclosure best practices.</small></p>
+        </div>
+      </div>
+    </div><!-- .entry-content -->
+
+  </div><!-- .post-inner -->
+</article>
+
+{{ end }}
