@@ -1,0 +1,12 @@
+name = "Twenty Twenty Hugo"
+license = "GPL v2"
+licenselink = "https://github.com/themefisher/twenty-twenty-hugo/blob/master/LICENSE"
+description = "**This theme is ported from WordPress Twenty Twenty themes.**"
+homepage = "https://gethugothemes.com/products/twenty-twenty-hugo/"
+tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'custom-themes', 'mobile', 'minimalistic', 'pages', 'resume', 'wordpress', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
+features = ['responsive']
+min_version = "0.62.2"
+
+[author]
+  name = "Themefisher"
+  homepage = "https://themefisher.com/"
