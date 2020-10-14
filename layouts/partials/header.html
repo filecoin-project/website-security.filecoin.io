@@ -18,7 +18,7 @@
         <div class="site-title faux-heading">
           <div class="site-logo">
             <a href="{{ .Site.BaseURL }}">
-              <img src="{{ .Site.BaseURL }}images/logo.svg" alt="logo" />
+              <img src="{{ `images/logo.svg` | absURL }}" alt="logo" />
               {{ .Site.Title }}
             </a>
           </div>
