@@ -57,3 +57,16 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
 
  - Filecoin’s core development team, employees of Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
 
+#### Leaderboard
+
+ | | Bounty Hunter |   GitHub User         | Reward  |
+ |-| ------------- |:-------------:| -----:|
+ |1| Wei Yang      | [@waynewyang](https://github.com/waynewyang) | 0000 pts |
+ |2| Leo Zhang     | [@Leozhang404](https://github.com/Leozhang404) | 0000 pts |
+
+
+#### News and Updates
+
+- **July 2020** - [Wei Yang](https://github.com/waynewyang) found a bug in `ConsensusFaultTimeOffsetMining` that could lead to incorrectly declared faults. [Mitigation](https://github.com/filecoin-project/lotus/pull/1988)
+- **July 2020** - [Wei Yang](https://github.com/waynewyang) found an issue with the `ReportConsensusFault` function caused it to not take effect. [Mitigation](https://github.com/filecoin-project/lotus/issues/1981)
+- **May 2020** - [Leo Zhang](https://github.com/Leozhang404) found that a message that could make the global cron actor's `HandleProvingPeriod` method crash. [Mitigation](https://github.com/filecoin-project/specs-actors/pull/383)
