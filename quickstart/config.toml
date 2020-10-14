@@ -38,7 +38,7 @@ weight = 1
 
 [[menu.main]]
 name = "Bug Bounty"
-URL = "contact"
+URL = "bugbounty"
 weight = 2
 
 [[menu.main]]
@@ -87,7 +87,7 @@ enable = true
 title = "Bug Bounty"
 content = "Reported security vulnerabilities are eligible for a Bug Bounty. We invite community members and bug bounty hunters to help find bugs and improve our protocol and node implementations."
 button_label = "Bug Bounty Program"
-button_url = "contact"
+button_url = "bugbounty"
 
 # gallery
 [params.gallery]

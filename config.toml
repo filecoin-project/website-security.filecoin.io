@@ -38,22 +38,22 @@ weight = 1
 
 [[menu.main]]
 name = "Bug Bounty"
-URL = "contact"
+URL = "bugbounty"
 weight = 2
 
 [[menu.main]]
 name = "Security Updates"
-URL = "blog/post-3"
+URL = "security/updates"
 weight = 3
 
 [[menu.main]]
 name = "Disclosure Policy"
-URL = "blog/post-2"
+URL = "security/disclosure-policy"
 weight = 4
 
 [[menu.main]]
 name = "Response Process"
-URL = "blog/post-1"
+URL = "security/response-process"
 weight = 4
 
 
@@ -87,7 +87,7 @@ enable = true
 title = "Bug Bounty"
 content = "Reported security vulnerabilities are eligible for a Bug Bounty. We invite community members and bug bounty hunters to help find bugs and improve our protocol and node implementations."
 button_label = "Bug Bounty Program"
-button_url = "contact"
+button_url = "bugbounty"
 
 # gallery
 [params.gallery]

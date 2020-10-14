@@ -53,6 +53,29 @@
   </div><!-- .section-inner -->
 </footer>
 
+
+{{ "<!-- Search index -->" | safeHTML }}
+<script>
+  var indexURL = {{"index.json" | absURL}}
+</script>
+
+<!-- jquery -->
+{{ $jquery := resources.Get "js/jquery.min.js" | minify}}
+<script src="{{ $jquery.Permalink }}"></script>
+
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- Main Script -->" | safeHTML }}
+
+{{/*
+{{ $search := resources.Get "js/search.js" | minify}}
+<script src="{{ $search.Permalink }}"></script>
+
+<script src="{{`plugins/search.js` | absURL }}"></script>
+*/}}
+
+
 <!-- cookie -->
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
