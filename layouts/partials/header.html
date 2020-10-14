@@ -15,7 +15,14 @@
         </span>
       </button>< .search-toggle -->
       <div class="header-titles">
-        <div class="site-title faux-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
+        <div class="site-title faux-heading">
+          <div class="site-logo">
+            <a href="{{ .Site.BaseURL }}">
+              <img src="{{ .Site.BaseURL }}images/logo.svg" alt="logo" />
+              {{ .Site.Title }}
+            </a>
+          </div>
+        </div>
       </div><!-- .header-titles -->
 
       <button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"
