@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/post-2/</loc>
+    <loc>/security/disclosure-policy/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
@@ -18,17 +13,22 @@
   </url>
   
   <url>
-    <loc>/blog/post-4/</loc>
+    <loc>/security/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post-1/</loc>
+    <loc>/security/response-process/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post-3/</loc>
+    <loc>/security/safe-harbor/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/security/updates/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url>
   
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/bugbounty/</loc>
   </url>
   
   <url>
