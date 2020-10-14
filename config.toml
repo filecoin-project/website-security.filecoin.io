@@ -105,7 +105,7 @@ image = "images/2020-square-1.png"
 title = "About This Site"
 content = "The Filecoin project encourages responsible vulnerability research and disclosure. This site describes our definition of good faith in the context of finding and reporting vulnerabilities, our security procedure and bug bounty program."
 
-github = "[Filecoin-project on Github](github.com/filecoin-project)"
+github = "[Filecoin-project on Github](https://github.com/filecoin-project)"
 spec = "[Filecoin Specification](https://spec.filecoin.io/)"
 
 copyright = "[Filecoin](https://filecoin.io)"
