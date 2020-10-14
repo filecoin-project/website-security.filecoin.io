@@ -1252,11 +1252,6 @@ button.toggle {
 	}
 }
 
-.wp-post-image, .wp-block-image, .blocks-gallery-item img {
-	/* temporary (maybe) until we get real images! */
-	filter: hue-rotate(232deg) brightness(2.2);
-}
-
 .wp-block-image.is-resized {
 	margin-left: auto;
 	margin-right: auto;
@@ -1873,6 +1868,7 @@ button.close-nav-toggle {
 	justify-content: flex-end;
 	padding: 3.1rem 0;
 	width: 100%;
+	outline: none;
 }
 
 button.close-nav-toggle svg {

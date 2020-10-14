@@ -1,6 +1,6 @@
 ---
 title: "Bug Bounty Program"
-bg_image: "images/2020-landscape-2.png"
+image: "/images/2020-landscape-2.png"
 # meta description
 description: "About the Filecoin Bug Bounty Program"
 # save as draft
