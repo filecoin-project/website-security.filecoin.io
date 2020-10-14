@@ -458,7 +458,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: #0ba0db;
+	color: #0D6EFF;
 	text-decoration: underline;
 }
 
@@ -541,7 +541,7 @@ dd+dt {
 /* Quotes ------------------------------------ */
 
 blockquote {
-	border-color: #0ba0db;
+	border-color: #0D6EFF;
 	border-style: solid;
 
 	/*rtl:ignore*/
@@ -839,7 +839,7 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: #0ba0db;
+	background: #0D6EFF;
 	border: none;
 	border-radius: 0;
 	color: #fff;
@@ -1095,7 +1095,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #0ba0db;
+	color: #0D6EFF;
 }
 
 /* BACKGROUND COLOR */
@@ -1103,7 +1103,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #0ba0db;
+	background-color: #0D6EFF;
 }
 
 /* BORDER COLOR */
@@ -1111,14 +1111,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #0ba0db;
+	border-color: #0D6EFF;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #0ba0db;
+	fill: #0D6EFF;
 }
 
 .fill-children-current-color,
@@ -1313,7 +1313,7 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: #0ba0db;
+	background: #0D6EFF;
 	border-radius: 50%;
 	color: #fff;
 	display: flex;
@@ -2765,11 +2765,11 @@ h2.entry-title {
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #0ba0db;
+	color: #0D6EFF;
 }
 
 :root .has-accent-background-color {
-	background-color: #0ba0db;
+	background-color: #0D6EFF;
 	color: #fff;
 }
 
@@ -2826,7 +2826,7 @@ h2.entry-title {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	color: #0ba0db;
+	color: #0D6EFF;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 5.1em;
 	font-weight: 800;
@@ -3049,7 +3049,7 @@ h2.entry-title {
 }
 
 .wp-block-button.is-style-outline {
-	color: #0ba0db;
+	color: #0D6EFF;
 }
 
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
@@ -3235,7 +3235,7 @@ figure.wp-block-gallery.alignfull {
 .wp-block-pullquote::before {
 	background: #fff;
 	border-radius: 50%;
-	color: #0ba0db;
+	color: #0D6EFF;
 	content: "”";
 	display: block;
 	font-size: 6.2rem;
@@ -3854,7 +3854,7 @@ div.comment:first-of-type {
 }
 
 .comment-reply-link {
-	background-color: #0ba0db;
+	background-color: #0D6EFF;
 	color: #fff;
 	display: block;
 	padding: 0.7rem;
@@ -4469,7 +4469,7 @@ ul.footer-social li {
 }
 
 .footer-social a {
-	background-color: #0ba0db;
+	background-color: #0D6EFF;
 	height: 3.6rem;
 	width: 3.6rem;
 }
