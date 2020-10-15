@@ -17,6 +17,10 @@ submissions:
     mitigation: https://github.com/filecoin-project/specs-actors/pull/383
 ---
 
+<h4 class="has-text-align-center">Recent Submissions</h4>
+
+{{< submissions >}}
+
 #### Rewards
 
 Reported security vulnerabilities will be eligible for a Bug Bounty based on Severity, calculated based on its Impact and Likelihood using the [OWASP Risk Rating model](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
@@ -126,7 +130,3 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
  Filecoin’s core development team, employees of Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
-
-<h4 class="has-text-align-center">Recent Submissions</h4>
-
-{{< submissions >}}
