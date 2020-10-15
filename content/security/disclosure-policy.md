@@ -1,7 +1,7 @@
 ---
 title: "Coordinated Disclosure Policy"
 date: 2020-03-14T15:40:24+06:00
-image : "/images/2020-three-quarters-3.png"
+image : "/images/2020-three-quarters-3.jpg"
 # author
 author : ["Admin"]
 # meta description

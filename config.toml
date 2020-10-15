@@ -76,7 +76,7 @@ para1 = "Having a vibrant community of security researchers auditing Filecoin an
 
 para2 = "We invite security researchers acting in good faith to help us maintain a high standard of security."
 
-image = "images/2020-landscape-1-2.png"
+image = "images/2020-landscape-1-2.jpg"
 
 # blog
 [params.blog]
