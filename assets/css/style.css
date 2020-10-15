@@ -3605,9 +3605,9 @@ figure.wp-block-table.is-style-stripes {
 .alignleft,
 .alignright,
 .alignwide {
-	margin-top: 4rem;
+	margin-top: 10rem;
 	margin-right: auto;
-	margin-bottom: 4rem;
+	margin-bottom: 10rem;
 	margin-left: auto;
 }
 
@@ -6484,6 +6484,16 @@ a.to-the-top>* {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.column img {
+	margin-top: 3rem;
+}
+
+.column p {
+	margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
