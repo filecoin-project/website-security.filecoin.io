@@ -1,7 +1,7 @@
 ---
 title: "Safe Harbor"
 date: 2020-03-14T15:40:24+06:00
-image : "/images/2020-three-quarters-4.png"
+image : "/images/2020-three-quarters-4.jpg"
 # meta description
 description: "Security research conducted in alignment with our Disclosure Policy to be protected by Safe Harbor"
 # save as draft

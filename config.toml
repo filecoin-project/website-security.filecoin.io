@@ -11,7 +11,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # desable language from here
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "UA-52930282-10" 
 
 
 
@@ -76,7 +76,7 @@ para1 = "Having a vibrant community of security researchers auditing Filecoin an
 
 para2 = "We invite security researchers acting in good faith to help us maintain a high standard of security."
 
-image = "images/2020-landscape-1-2.png"
+image = "images/2020-landscape-1-2.jpg"
 
 # blog
 [params.blog]
@@ -94,10 +94,10 @@ button_url = "bugbounty"
 enable = true
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-2.png"
+image = "images/2020-square-2.jpg"
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-1.png"
+image = "images/2020-square-1.jpg"
 
 
 # footer
