@@ -5,7 +5,21 @@ image: "/images/2020-landscape-2.png"
 description: "About the Filecoin Bug Bounty Program"
 # save as draft
 draft: false
+submissions:
+  - date: July 2020
+    desc: "[Wei Yang](https://github.com/waynewyang) found a bug in `ConsensusFaultTimeOffsetMining` that could lead to incorrectly declared faults."
+    mitigation: https://github.com/filecoin-project/lotus/pull/1988
+  - date: July 2020
+    desc: "[Wei Yang](https://github.com/waynewyang) found an issue with the `ReportConsensusFault` function caused it to not take effect."
+    mitigation: https://github.com/filecoin-project/lotus/issues/1981
+  - date: May 2020
+    desc: "[Leo Zhang](https://github.com/Leozhang404) found that a message that could make the global cron actor's `HandleProvingPeriod` method crash."
+    mitigation: https://github.com/filecoin-project/specs-actors/pull/383
 ---
+
+<h4 class="has-text-align-center">Recent Submissions</h4>
+
+{{< submissions >}}
 
 #### Rewards
 

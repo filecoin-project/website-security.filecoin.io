@@ -1,0 +1,13 @@
+<div class="wp-block-columns columns has-background" style="background:white">
+  {{ range $.Page.Params.submissions }}
+    <div class="column">
+      <div class="wp-block-group">
+        <div class="wp-block-group__inner-container">
+          <h5>{{ .date }}</h4>
+          <p>{{ .desc | markdownify }}</p>
+          <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="{{ .mitigation }}">Mitigation →</a></div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
