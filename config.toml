@@ -65,7 +65,7 @@ author = "The Filecoin Project"
 
 # cookies
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 
 # banner
@@ -94,10 +94,10 @@ button_url = "bugbounty"
 enable = true
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-2.png"
+image = "images/2020-square-2.jpg"
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-1.png"
+image = "images/2020-square-1.jpg"
 
 
 # footer
