@@ -2,7 +2,6 @@
 title: "Bug Bounty Program"
 image: "/images/2020-landscape-2.jpg"
 description: "About the Filecoin Bug Bounty Program"
-draft: false
 submissions:
   - date: July 2020
     desc: "[Wei Yang](https://github.com/waynewyang) found a bug in `ConsensusFaultTimeOffsetMining` that could lead to incorrectly declared faults."

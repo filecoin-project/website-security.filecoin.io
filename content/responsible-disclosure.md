@@ -2,34 +2,25 @@
 title: "Responsible Disclosure"
 date: 2020-03-14T15:40:24+06:00
 image : "/images/2020-three-quarters-3.jpg"
-description: "This is meta description"
-draft: false
 ---
 
-#### Coordinated Disclosure
-
-**A researcher can share details of a vulnerability after a fix has been applied and our security team has provided permission to disclose.**
-
-We will make a best effort to address and patch if possible vulnerabilities within 90 days from submission. Please keep security vulnerabilities private until we've had a chance to address them.
-
-#### Expectations
+## Coordinated Disclosure Policy
 
 When working with us according to this policy, you can expect us to:
-
 - Work with you to understand and validate your report, including a timely initial response to the submission
-
 - Work to remediate discovered vulnerabilities in a timely manner
-
 - Recognize your contribution to improving Filecoin security if you are the first to report a unique vulnerability, and your report triggers a code or configuration change
 
+#### Disclosure channels
 
-#### Disclosure Process
+We’ve created two main channels for reporting:
 
-We have a [Coordinated Disclosure Policy](../disclosure-policy), whereby a researcher can share details of a vulnerability after a fix has been applied and our security team has provided permission to disclose. Please keep security vulnerabilities private until we've had a chance to address them.
+- Send an email to [security@filecoin.org](mailto:security@filecoin.org). This email is monitored everyday. Please use our PGP key to encrypt sensitive information.
+- Alternatively, request to join the filecoin-sec team on Keybase, where we can set up a private channel to discuss.
 
-If you have filed an issue and are interested in options for disclosing it, please reach out to us at [security@filecoin.org](mailto:security@filecoin.org).
+Please do not file a public issue or discuss the vulnerability in public places like Slack, Twitter, etc.
 
-#### Response Process
+#### Process overview
 
 1. A security researcher reports a vulnerability via email to security@filecoin.org or Keybase.
 1. Our security team will designate a Response Manager in charge of a particular report based on expertise and availability. They will acknowledge receipt of the report in a quick response to the researcher.
@@ -51,18 +42,14 @@ If you have filed an issue and are interested in options for disclosing it, plea
     1. Medium to High Severity issues may result in a minor release including the patch.
     1. Low severity issues can be addressed in the next regular release.
 
-
-#### Safe Harbor
+#### Safe harbor
 
 We consider security research conducted in alignment with our Disclosure Policy to be protected by Safe Harbor:
 
-  - Authorized in view of any applicable anti-hacking laws, and we will not initiate or support legal action against you for accidental, good faith violations of this policy
-
-  - Authorized in view of relevant anti-circumvention laws, and we will not bring a claim against you for circumvention of technology controls
-
-  - Exempt from restrictions in our Acceptable Usage Policy that would interfere with conducting security research, and we waive those restrictions on a limited basis
-  
-  - Lawful, helpful to the overall security of the Internet, and conducted in good faith
+- Authorized in view of any applicable anti-hacking laws, and we will not initiate or support legal action against you for accidental, good faith violations of this policy
+- Authorized in view of relevant anti-circumvention laws, and we will not bring a claim against you for circumvention of technology controls
+- Exempt from restrictions in our Acceptable Usage Policy that would interfere with conducting security research, and we waive those restrictions on a limited basis
+- Lawful, helpful to the overall security of the Internet, and conducted in good faith
 
 You are expected to comply with all applicable laws. If legal action is initiated by a third party against you and you have complied with this policy, we will take steps to make it known that your actions were conducted in compliance with this policy.</p>
 
