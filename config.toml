@@ -30,83 +30,53 @@ unsafe = true
 
 ############################## navigation ###############################
 
-# main menu
 [[menu.main]]
 name = "Home"
 URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Bug Bounty"
-URL = "bugbounty"
+name = "Responsible Disclosure"
+URL = "responsible-disclosure"
 weight = 2
 
 [[menu.main]]
-name = "Security Updates"
-URL = "security/updates"
+name = "Audits"
+URL = "https://spec.filecoin.io/#section-appendix.audit_reports.audit-reports"
+weight = 2
+
+[[menu.main]]
+name = "Bug Bounty"
+URL = "bug-bounty"
 weight = 3
 
 [[menu.main]]
-name = "Disclosure Policy"
-URL = "security/disclosure-policy"
+name = "Security Updates"
+URL = "updates"
 weight = 4
-
-[[menu.main]]
-name = "Response Process"
-URL = "security/response-process"
-weight = 4
-
 
 #################### default parameters ################################
 [params]
 # Meta data
-description = "Filecoin Bug Bounty Program"
+description = "Filecoin Security Program"
 author = "The Filecoin Project"
 
 # cookies
 [params.cookies]
 enable = true
-expire_days = 2
+expire_days = 30
 
 # banner
 [params.banner]
-heading = ""
-
-para1 = "Having a vibrant community of security researchers auditing Filecoin and its dependencies is at the core of building a robust platform, mitigating risks and building trust in the Filecoin ecosystem."
-
-para2 = "We invite security researchers acting in good faith to help us maintain a high standard of security."
-
 image = "images/2020-landscape-1-2.jpg"
-
-# blog
-[params.blog]
-
-# call to action
-[params.call_to_action]
-enable = true
-title = "Bug Bounty"
-content = "Reported security vulnerabilities are eligible for a Bug Bounty. We invite community members and bug bounty hunters to help find bugs and improve our protocol and node implementations."
-button_label = "Bug Bounty Program"
-button_url = "bugbounty"
-
-# gallery
-[params.gallery]
-enable = true
-
-[[params.gallery.gallery_item ]]
-image = "images/2020-square-2.jpg"
-
-[[params.gallery.gallery_item ]]
-image = "images/2020-square-1.jpg"
-
 
 # footer
 [params.footer]
-title = "About This Site"
-content = "The Filecoin project encourages responsible vulnerability research and disclosure. This site describes our definition of good faith in the context of finding and reporting vulnerabilities, our security procedure and bug bounty program."
+title = "Filecoin Security"
+content = "The Filecoin Security program is part of the The Filecoin project. It encourages responsible vulnerability research and disclosure."
 
-github = "[Filecoin-project on Github](https://github.com/filecoin-project)"
-spec = "[Filecoin Specification](https://spec.filecoin.io/)"
+github = "[filecoin-project Org on on Github](https://github.com/filecoin-project)"
+spec = "[Specification of the Filecoin protocol](https://spec.filecoin.io)"
 
 copyright = "[Filecoin](https://filecoin.io)"
 
