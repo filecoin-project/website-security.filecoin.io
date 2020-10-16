@@ -36,8 +36,8 @@ URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Responsible Disclosure Process"
-URL = "responsible-disclosure-process"
+name = "Responsible Disclosure"
+URL = "responsible-disclosure"
 weight = 2
 
 [[menu.main]]
@@ -68,11 +68,6 @@ expire_days = 30
 
 # banner
 [params.banner]
-heading = ""
-
-para1 = "Having a vibrant community of security researchers auditing Filecoin and its dependencies is at the core of building a robust platform, mitigating risks and building trust in the Filecoin ecosystem."
-para2 = "We invite security researchers acting in good faith to help us maintain a high standard of security."
-
 image = "images/2020-landscape-1-2.jpg"
 
 # footer
