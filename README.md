@@ -1,4 +1,4 @@
-# bug-bounty-program
+# security.filecoin.io
 
 ## Building Hugo
 
