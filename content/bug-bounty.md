@@ -68,9 +68,9 @@ We encourage good-faith security research and ask that you follow these guidelin
 
 - Play by the rules. This includes following this policy as well as any other relevant agreements
 
-- Use only Official Channels (emailing security@filecoin.org or Keybase chat) to discuss vulnerability information with us
+- Use only official channels (email security@filecoin.org or Keybase chat) to discuss vulnerability information with us
 
-- Handle the confidentiality of details of any discovered vulnerabilities according to our [Disclosure Policy](../security/disclosure-policy)
+- Handle the confidentiality of details of any discovered vulnerabilities according to our [Disclosure Policy](../responsible-disclosure)
 
 
 #### Scope
