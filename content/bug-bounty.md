@@ -25,7 +25,7 @@ Reported security vulnerabilities will be eligible for a Bug Bounty based on Sev
 The following is a guide for how points may be allocated to issues reported based on severity:
 
   - Critical: up to 100,000 points
-  - High: up to 25,000 points
+  - High: up to 50,000 points
   - Medium: up to 15,000 points
   - Low: up to 2,500 points
   - Note: up to 500 points
