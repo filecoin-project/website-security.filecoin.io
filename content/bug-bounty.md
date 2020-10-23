@@ -22,12 +22,12 @@ submissions:
 
 Reported security vulnerabilities will be eligible for a Bug Bounty based on Severity, calculated based on its Impact and Likelihood using the [OWASP Risk Rating model](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
 
-The following point ranges will be assigned based on Severity:
+The following is a guide for how points may be allocated to issues reported based on severity:
 
-  - Critical: up to 25,000 points
-  - High: up to 15,000 points
-  - Medium: up to 10,000 points
-  - Low: up to 2,000 points
+  - Critical: up to 100,000 points
+  - High: up to 25,000 points
+  - Medium: up to 15,000 points
+  - Low: up to 2,500 points
   - Note: up to 500 points
 
 Where currently 1 point = 1 USD (payable in USD, DAI or FIL).
