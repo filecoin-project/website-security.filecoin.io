@@ -75,7 +75,7 @@ image = "images/2020-landscape-1-2.jpg"
 title = "Filecoin Security"
 content = "The Filecoin Security program is part of the The Filecoin project. It encourages responsible vulnerability research and disclosure."
 
-github = "[filecoin-project Org on on Github](https://github.com/filecoin-project)"
+github = "[filecoin-project Org on on GitHub](https://github.com/filecoin-project)"
 spec = "[Specification of the Filecoin protocol](https://spec.filecoin.io)"
 
 copyright = "[Filecoin](https://filecoin.io)"
