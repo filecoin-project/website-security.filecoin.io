@@ -4,16 +4,16 @@ image: "/images/2020-landscape-2.jpg"
 description: "About the Filecoin Bug Bounty Program"
 submissions:
   - date: Aug 2021
-    desc: "Joran reported arbitrary write vulnerability in go-ipfs."
+    desc: "[Joran](https://github.com/JoranHonig) reported arbitrary write vulnerability in go-ipfs."
     mitigation: https://github.com/ipfs/go-ipfs-files/pull/43
   - date: Sept 2021
-    desc: "Swapnil reported Access Control Issues in Github Repository."
+    desc: "[Swapnil](https://in.linkedin.com/in/swapnil-kothawade-813854a7) reported Access Control Issues in Github Repository."
     mitigation: https://github.com/filecoin-project/merkletree/
   - date: Oct 2021
-    desc: "cryptowhizzard reported an Denial-Of-Service(DOS) vulnerability in Lotus."
+    desc: "[cryptowhizzard](https://github.com/cryptowhizzard) reported an Denial-Of-Service(DOS) vulnerability in Lotus."
     mitigation: https://github.com/filecoin-project/go-data-transfer/pull/271
   - date: Jan 2022
-    desc: "Brijesh reported an exposed Algolia API key in Github."
+    desc: "[Brijesh](https://github.com/ethletic) reported an exposed Algolia API key in Github."
     mitigation: https://github.com/filecoin-project/retrieval-market-spec/commit/50387354c55f91d5c6dff5a898a4bebba9b3c434
 ---
 
