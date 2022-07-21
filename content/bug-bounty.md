@@ -3,15 +3,18 @@ title: "Bug Bounty Program"
 image: "/images/2020-landscape-2.jpg"
 description: "About the Filecoin Bug Bounty Program"
 submissions:
-  - date: July 2020
-    desc: "[Wei Yang](https://github.com/waynewyang) found a bug in `ConsensusFaultTimeOffsetMining` that could lead to incorrectly declared faults."
-    mitigation: https://github.com/filecoin-project/lotus/pull/1988
-  - date: July 2020
-    desc: "[Wei Yang](https://github.com/waynewyang) found an issue with the `ReportConsensusFault` function caused it to not take effect."
-    mitigation: https://github.com/filecoin-project/lotus/issues/1981
-  - date: May 2020
-    desc: "[Leo Zhang](https://github.com/Leozhang404) found that a message that could make the global cron actor's `HandleProvingPeriod` method crash."
-    mitigation: https://github.com/filecoin-project/specs-actors/pull/383
+  - date: Aug 2021
+    desc: "[Joran](https://github.com/JoranHonig) reported arbitrary write vulnerability in go-ipfs."
+    mitigation: https://github.com/ipfs/go-ipfs-files/pull/43
+  - date: Sept 2021
+    desc: "[Swapnil](https://in.linkedin.com/in/swapnil-kothawade-813854a7) reported Access Control Issues in Github Repository."
+    mitigation: https://github.com/filecoin-project/merkletree/
+  - date: Oct 2021
+    desc: "[cryptowhizzard](https://github.com/cryptowhizzard) reported an Denial-Of-Service(DOS) vulnerability in Lotus."
+    mitigation: https://github.com/filecoin-project/go-data-transfer/pull/271
+  - date: Jan 2022
+    desc: "[Brijesh](https://github.com/ethletic) reported an exposed Algolia API key in Github."
+    mitigation: https://github.com/filecoin-project/retrieval-market-spec/commit/50387354c55f91d5c6dff5a898a4bebba9b3c434
 ---
 
 <h4 class="has-text-align-center">Recent Submissions</h4>
