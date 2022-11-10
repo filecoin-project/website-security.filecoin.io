@@ -55,6 +55,11 @@ name = "Security Updates"
 URL = "updates"
 weight = 4
 
+[[menu.main]]
+name = "Hall Of Fame"
+URL="honorable-mentions"
+weight = 5
+
 #################### default parameters ################################
 [params]
 # Meta data
