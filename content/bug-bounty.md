@@ -17,10 +17,6 @@ submissions:
     mitigation: https://github.com/filecoin-project/retrieval-market-spec/commit/50387354c55f91d5c6dff5a898a4bebba9b3c434
 ---
 
-<h4 class="has-text-align-center">Recent Submissions</h4>
-
-{{< submissions >}}
-
 #### Rewards
 
 Reported security vulnerabilities will be eligible for a Bug Bounty based on Severity, calculated based on its Impact and Likelihood using the [OWASP Risk Rating model](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology).
@@ -48,7 +44,7 @@ Evaluation of the significance of the vulnerability and specific bounty amount a
 We encourage good-faith security research and ask that you follow these guidelines to avoid any confusion between legitimate research and malicious attack, we ask that you attempt, in good faith, to comply with the following:
 
 - Testing must not violate any law or compromise any data that is not yours
-  
+
 - **Please refrain from the following**:
   - Denial of Service attacks and Active Exploits against the Filecoin network or Filecoin miners and nodes
   - Social engineering and phishing of Filecoin project contributors, ecosystem collaborators or community members
@@ -130,3 +126,34 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
  Filecoin’s core development team, employees of Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
+
+
+ <h4 class="has-text-align-center">Recent Submissions</h4>
+
+ {{< submissions >}}
+
+ #### Hall of Fame
+
+ <details>
+ <summary><strong><size="25px">2022</strong></summary>
+
+ - <a href="https://www.linkedin.com/in/swapnil-kothawade-813854a7/" target="_blank">Swapnil Kothawade</a>
+ <br>
+ - <a target="_blank" href="https://www.linkedin.com/in/anupam-singh-226463201/">Anumpam Singh</a>
+ <br>
+ - <a target="_blank" href="https://www.linkedin.com/in/beni-budiharto-815b8b86/">Beni Budiharto</a>
+ </details>
+
+ <details>
+ <summary><strong>2021</strong></summary>
+
+ - <a target="_blank" href="https://www.linkedin.com/in/raynaudoee/">Ezequiel Raynaudo</a><br>
+ - Nishant Das<br>
+ - cryptowhizzard<br>
+ - ItsUnixIKnowThis<br>
+ - <a target="_blank" href="https://www.linkedin.com/in/swapnil-kothawade-813854a7/">Swapnil Kothawade</a><br>
+ - <a target="_blank" href="https://www.linkedin.com/in/joran-honig-180b78100/">Joran Honig</a><br>
+ - Tin Tin<br>
+ - robyhugeman<br>
+ - yangming
+ </details>

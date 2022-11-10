@@ -11,7 +11,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # desable language from here
 # google analytics
-googleAnalytics = "UA-52930282-10" 
+googleAnalytics = "UA-52930282-10"
 
 
 
@@ -55,11 +55,6 @@ name = "Security Updates"
 URL = "updates"
 weight = 4
 
-[[menu.main]]
-name = "Hall of Fame"
-URL="honorable-mentions"
-weight = 5
-
 #################### default parameters ################################
 [params]
 # Meta data
@@ -91,4 +86,3 @@ github = "https://github.com/filecoin-project"
 slack = "https://filecoin.io/slack"
 twitter = "https://twitter.com/Filecoin"
 email = "security@filecoin.org"
-
