@@ -56,7 +56,7 @@ URL = "updates"
 weight = 4
 
 [[menu.main]]
-name = "Hall Of Fame"
+name = "Hall of Fame"
 URL="honorable-mentions"
 weight = 5
 
