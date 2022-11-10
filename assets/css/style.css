@@ -753,6 +753,10 @@ button,
 	}
 }
 
+.entry-content {
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
 input,
 textarea {
 	border-color: #dcd7ca;
