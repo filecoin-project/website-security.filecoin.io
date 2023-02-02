@@ -135,6 +135,13 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
  #### Hall of Fame
 
  <details>
+ <summary><strong><size="25px">2023</strong></summary>
+
+ - <a href="https://www.twitter.com/holybugx" target="_blank">HolyBugx</a>
+ - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katawal</a>
+ </details>
+
+ <details>
  <summary><strong><size="25px">2022</strong></summary>
 
  - <a href="https://www.linkedin.com/in/swapnil-kothawade-813854a7/" target="_blank">Swapnil Kothawade</a>
