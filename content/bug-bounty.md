@@ -46,7 +46,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 |Category      |Level   |Impact                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
-|<nobr>**Blockchain/DLT**</nobr>|**Critical**|Network not being able to confirm new transactions (Total network shutdown)                             |
+|<div style="width:250px">**Blockchain/DLT**</div>|**Critical**|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
@@ -59,7 +59,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
 |              |        |A single contract becomes unusable after the exploit (i.e. contract bricked)                            |
-|              |<nobr>**Medium**</nobr>  |High compute consumption by validator/mining nodes                                                      |
+|              |<div style="width:100px">**Medium**</div>  |High compute consumption by validator/mining nodes                                                      |
 |              |        |Attacks against thin clients                                                                            |
 |              |        |DoS of greater than 30% of validator or miner nodes and does not shut down the network                  |
 |              |        |EVM instruction fails to execute, in a general way                                                      |
