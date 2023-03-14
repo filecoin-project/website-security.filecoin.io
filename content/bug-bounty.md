@@ -1,5 +1,5 @@
 ---
-title: "Bug Bounty Program"
+title: "Filecoin Bug Bounty Program"
 image: "/images/2020-landscape-2.jpg"
 description: "About the Filecoin Bug Bounty Program"
 submissions:
@@ -23,11 +23,11 @@ Reported security vulnerabilities will be eligible for a Bug Bounty based on Sev
 
 The following is a guide for how points may be allocated to issues reported based on severity:
 
-  - Critical: up to 100,000 points
-  - High: up to 50,000 points
-  - Medium: up to 15,000 points
-  - Low: up to 2,500 points
-  - Note: up to 500 points
+  - Critical: up to 500,000 points
+  - High: up to 100,000 points
+  - Medium: up to 25,000 points
+  - Low: up to 10,000 points
+  - Note: up to 5,000 points
 
 Where currently 1 point = 1 USD (payable in USD, DAI or FIL).
 
@@ -39,43 +39,45 @@ Evaluation of the significance of the vulnerability and specific bounty amount a
 > <small>NOTE: Reporters are responsible for all taxes and all awards subject to applicable law.</small>
 > <small>We are not able to pay bounty awards to individuals who are on a U.S. sanctions list or in a country on a U.S. sanctions list..</small>
 
-#### Rules
 
-We encourage good-faith security research and ask that you follow these guidelines to avoid any confusion between legitimate research and malicious attack, we ask that you attempt, in good faith, to comply with the following:
-
-- Testing must not violate any law or compromise any data that is not yours
-
-- **Please refrain from the following**:
-  - Denial of Service attacks and Active Exploits against the Filecoin network or Filecoin miners and nodes
-  - Social engineering and phishing of Filecoin project contributors, ecosystem collaborators or community members
-  - Physical or electronic attempts to access offices where project contributors work or data centers where Filecoin nodes are located
-  - Compromising user accounts or stealing funds
-
-<br>
-
-- Please report any vulnerability you’ve discovered promptly.
-
-- Help us improve this security process as it is critical to our mission by suggesting improvements
-
-- Avoid violating the privacy of Filecoin users and community members, disrupting their systems, destroying data, stealing funds and/or harming the user experience
-
-- Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope
-
-- Interact only with test accounts you own or with explicit permission from the account holder
-
-- If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately
-
-- Play by the rules. This includes following this policy as well as any other relevant agreements
-
-- Use only official channels (email security@filecoin.org or Keybase chat) to discuss vulnerability information with us
-
-- Handle the confidentiality of details of any discovered vulnerabilities according to our [Disclosure Policy](../responsible-disclosure)
-
-
-#### Scope
+#### *Updated Scope(Now includes reports for the FEVM implementation)
 
 In scope for our Bug Bounty program are vulnerabilities in the core protocol and protocol implementations that have been security audited:
 
+|Category      |Level   |Impact                                                                                                  |
+|--------------|--------|--------------------------------------------------------------------------------------------------------|
+|**Blockchain/DLT**|**Critical**|Network not being able to confirm new transactions (Total network shutdown)                             |
+|              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
+|              |        |Direct loss of funds                                                                                    |
+|              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
+|              |        |RPC API crash capable of impacting block production                                                     |
+|              |        |General inability for developers to deploy new smart contracts                                          |
+|              |        |General breakage of all contracts deployed on-chain                                                     |
+|              |        |General inability for contracts to use their funds                                                      |
+|              |        |Tricking contracts into sending funds to arbitrary addresses                                            |
+|              |**High**    |Unintended chain split (Network partition) with localized impacts                                       |
+|              |        |Transient consensus failures                                                                            |
+|              |        |Inability to propagate new transactions                                                                 |
+|              |        |A single contract becomes unusable after the exploit (i.e. contract bricked)                            |
+|              |**Medium**  |High compute consumption by validator/mining nodes                                                      |
+|              |        |Attacks against thin clients                                                                            |
+|              |        |DoS of greater than 30% of validator or miner nodes and does not shut down the network                  |
+|              |        |EVM instruction fails to execute, in a general way                                                      |
+|              |        |Inability to deploy a contract under a specific circumstances                                           |
+|              |**Low**     |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network|
+|              |        |Underpricing transaction fees relative to computation time                                              |
+|              |        |Contract on the platform fails to deliver promised returns, but doesn't lose values                     |
+|              |        |EVM instruction fails to execute when provided with concrete parameters                                 |
+
+- **Important notice for the issue criteria that is presented in the table:**
+  - Criteria and the wording for this table might be refined in the next 5-7 working days since we are still in the early days for the FEVM release.
+  - Security reports that are not explicitly listed in the table will still be reviewed and matched up against the severity classification based on their impact.
+
+  <br>
+
+- FVM
+  - Reference FVM (ref-fvm)
+    - Reference implementation of the Filecoin VM ([Repository](https://github.com/filecoin-project/ref-fvm)).
 - Lotus Core
   - [filecoin-project/lotus](https://github.com/filecoin-project/lotus)
 - Markets
@@ -112,8 +114,11 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 <small>* Implementations undergoing active development that have not yet been security audited are currently not in scope.</small>
 
-Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" target="_blank">Filecoin Spec: Implementation Status</a> for more information about these projects and their audits.
+#### Read More
 
+- Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" target="_blank">Filecoin Spec: Implementation Status</a> for more information about these projects and their audits.
+
+- [Filecoin Improvement Proposals(FIPs)](https://github.com/filecoin-project/FIPs/tree/master/FIPS)
 
 #### Out-of-Scope
 
@@ -128,11 +133,51 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
  Filecoin’s core development team, employees of Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
 
 
+ #### Rules
+
+We encourage good-faith security research and ask that you follow these guidelines to avoid any confusion between legitimate research and malicious attack, we ask that you attempt, in good faith, to comply with the following:
+
+
+
+- Testing must not violate any law or compromise any data that is not yours
+
+- **Please refrain from the following**:
+  - Denial of Service attacks and Active Exploits against the Filecoin network or Filecoin miners and nodes
+  - Social engineering and phishing of Filecoin project contributors, ecosystem collaborators or community members
+  - Physical or electronic attempts to access offices where project contributors work or data centers where Filecoin nodes are located
+  - Compromising user accounts or stealing funds
+
+- Please report any vulnerability you’ve discovered promptly.
+
+- Help us improve this security process as it is critical to our mission by suggesting improvements
+
+- Avoid violating the privacy of Filecoin users and community members, disrupting their systems, destroying data, stealing funds and/or harming the user experience
+
+- Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope
+
+- Interact only with test accounts you own or with explicit permission from the account holder
+
+- If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately
+
+- Play by the rules. This includes following this policy as well as any other relevant agreements
+
+- Use only official channels (email security@filecoin.org or Keybase chat) to discuss vulnerability information with us
+
+- Handle the confidentiality of details of any discovered vulnerabilities according to our [Disclosure Policy](../responsible-disclosure)
+
+
  <h4 class="has-text-align-center">Recent Submissions</h4>
 
  {{< submissions >}}
 
  #### Hall of Fame
+
+ <details>
+ <summary><strong><size="25px">2023</strong></summary>
+
+ - <a href="https://www.twitter.com/holybugx" target="_blank">HolyBugx</a>
+ - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katawal</a>
+ </details>
 
  <details>
  <summary><strong><size="25px">2022</strong></summary>
@@ -157,3 +202,4 @@ Visit the <a href="https://spec.filecoin.io/#intro__implementations-status" targ
  - robyhugeman<br>
  - yangming
  </details>
+
