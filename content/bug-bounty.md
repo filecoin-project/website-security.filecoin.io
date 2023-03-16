@@ -44,7 +44,7 @@ Evaluation of the significance of the vulnerability and specific bounty amount a
 
 In scope for our Bug Bounty program are vulnerabilities in the core protocol and protocol implementations that have been security audited:
 
-|Category      |Level   |Impact                                                                                                  |
+|Category      |Level   |Impact In Scope                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
 |<div style="width:180px">**Blockchain/DLT**</div>|**Critical**|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
