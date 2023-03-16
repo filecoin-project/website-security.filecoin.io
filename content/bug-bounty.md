@@ -54,7 +54,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Protocol level bug that is causing the inability for developers to deploy new smart contracts                                          |
 |              |        |Protocol level bug that is causing breakage of all contracts deployed on the chain                                                     |
 |              |        |Protocol level bug that is causing the inability for contracts to use their funds|
-|              |        |Tricking contracts into sending funds to arbitrary addresses                                            |
+|              |        |Protocol level bug that enables tricking contracts into sending funds to arbitrary addresses                                            |
 |              |**High(POC required)**    |Unintended chain split (Network partition) with localized impacts                                       |
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
