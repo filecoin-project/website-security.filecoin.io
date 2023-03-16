@@ -46,7 +46,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 |Category      |Level   |Impact In Scope                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
-|<div style="width:180px">**Blockchain/DLT**</div>|**Critical**|Network not being able to confirm new transactions (Total network shutdown)                             |
+|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:200px">**Critical(POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
@@ -55,7 +55,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Protocol level bug that is causing breakage of all contracts deployed on the chain                                                     |
 |              |        |Protocol level bug that is causing the inability for contracts to use their funds|
 |              |        |Tricking contracts into sending funds to arbitrary addresses                                            |
-|              |**High**    |Unintended chain split (Network partition) with localized impacts                                       |
+|              |**High(POC required)**    |Unintended chain split (Network partition) with localized impacts                                       |
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
 |              |        |A single contract becomes unusable after the exploit (i.e. contract bricked)                            |
@@ -128,7 +128,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
  - Vulnerabilities previously submitted by another person or identified in a published audit report are not eligible for bug bounty rewards.
  
- - Any smart contract deployed by Dapp developers on FVM platfom is not a part of the bug bounty program.
+ - Any smart contract deployed by Dapp developers on the FVM platfom is not a part of the bug bounty program.
 
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
