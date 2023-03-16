@@ -51,9 +51,10 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
 |              |        |RPC API crash capable of impacting block production                                                     |
-|              |        |General inability for developers to deploy new smart contracts                                          |
-|              |        |General breakage of all contracts deployed on-chain                                                     |
-|              |        |General inability for contracts to use their funds                                                      |
+|              |        |Protocol level bug that is causing the inability for developers to deploy new smart contracts                                          |
+|              |        |Protocol level bug that is causing breakage of all contracts deployed on the chain                                                     |
+|              |        |Protocol level bug that is causing the inability for contracts to use their funds
+                                                      |
 |              |        |Tricking contracts into sending funds to arbitrary addresses                                            |
 |              |**High**    |Unintended chain split (Network partition) with localized impacts                                       |
 |              |        |Transient consensus failures                                                                            |
@@ -131,6 +132,8 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
  Filecoin’s core development team, employees of Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
+ 
+ - Any smart contract deployed by Dapp developers on FVM platfom is not a part of the bug bounty program.
 
 
  #### Rules
