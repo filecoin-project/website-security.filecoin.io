@@ -86,7 +86,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 - Storage Miner
   - [filecoin-project/lotus/tree/master/miner](https://github.com/filecoin-project/lotus/tree/master/miner)
 - Actors
-  - [filecoin-project/specs-actors](https://github.com/filecoin-project/specs-actors)
+  - [filecoin-project/builtin-actors](https://github.com/filecoin-project/builtin-actors)
 - Proofs
   - [filecoin-project/rust-fil-proofs-ffi](https://github.com/filecoin-project/rust-fil-proofs-ffi)
   - [filecoin-project/rust-filecoin-proofs-api](https://github.com/filecoin-project/rust-filecoin-proofs-api)
