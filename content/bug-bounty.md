@@ -66,7 +66,6 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Inability to deploy a contract under a specific circumstances                                           |
 |              |**Low** |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network|
 |              |        |Underpricing transaction fees relative to computation time                                              |
-|              |        |Contract on the platform fails to deliver promised returns, but doesn't lose values                     |
 |              |        |EVM instruction fails to execute when provided with concrete parameters                                 |
 
 - **Important notice for the issue criteria that is presented in the table:**
