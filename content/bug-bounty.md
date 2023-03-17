@@ -37,7 +37,7 @@ Evaluation of the significance of the vulnerability and specific bounty amount a
 
 
 > <small>NOTE: Reporters are responsible for all taxes and all awards subject to applicable law.</small>
-> <small>We are not able to pay bounty awards to individuals who are on a U.S. sanctions list or in a country on a U.S. sanctions list..</small>
+> <small>We are not able to pay bounty awards to individuals who are on a U.S. sanctions list or in a country on a U.S. sanctions list.</small>
 
 
 #### Scope (now includes reports for the FEVM implementation)
