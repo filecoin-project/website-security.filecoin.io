@@ -46,7 +46,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 |Category      |Level   |Impact In Scope                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
-|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:220px">**Critical (POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
+|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:200px">**Critical(POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
@@ -54,7 +54,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Protocol-level bug causing the inability for developers to deploy new smart contracts                   |
 |              |        |Protocol-level bug causing breakage of all contracts deployed on the chain                              |
 |              |        |Protocol-level bug that enables tricking contracts into sending funds to arbitrary addresses            |
-|              |**High (POC required)**    |Unintended chain split (Network partition) with localized impacts                    |
+|              |**High(POC required)**    |Unintended chain split (Network partition) with localized impacts                    |
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
 |              |        |Protocol-level bug preventing contracts from using their funds                                          |      
