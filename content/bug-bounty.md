@@ -46,7 +46,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 |Category      |Level   |Impact In Scope                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
-|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:200px">**Critical (POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
+|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:220px">**Critical (POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
