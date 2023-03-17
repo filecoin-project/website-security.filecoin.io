@@ -40,31 +40,31 @@ Evaluation of the significance of the vulnerability and specific bounty amount a
 > <small>We are not able to pay bounty awards to individuals who are on a U.S. sanctions list or in a country on a U.S. sanctions list..</small>
 
 
-#### *Updated Scope(Now includes reports for the FEVM implementation)
+#### Scope (now includes reports for the FEVM implementation)
 
 In scope for our Bug Bounty program are vulnerabilities in the core protocol and protocol implementations that have been security audited:
 
 |Category      |Level   |Impact In Scope                                                                                                  |
 |--------------|--------|--------------------------------------------------------------------------------------------------------|
-|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:200px">**Critical(POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
+|<div style="width:180px">**Blockchain/DLT**</div>|<div style="width:200px">**Critical (POC required)**</div>|Network not being able to confirm new transactions (Total network shutdown)                             |
 |              |        |Unintended permanent chain split requiring hard fork (Network partition requiring hard fork)            |
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
 |              |        |RPC API crash capable of impacting block production                                                     |
-|              |        |Protocol level bug that is causing the inability for developers to deploy new smart contracts                                          |
-|              |        |Protocol level bug that is causing breakage of all contracts deployed on the chain                                                     |
-|              |        |Protocol level bug that is causing the inability for contracts to use their funds|
-|              |        |Protocol level bug that enables tricking contracts into sending funds to arbitrary addresses                                            |
-|              |**High(POC required)**    |Unintended chain split (Network partition) with localized impacts                                       |
+|              |        |Protocol-level bug causing the inability for developers to deploy new smart contracts                   |
+|              |        |Protocol-level bug causing breakage of all contracts deployed on the chain                              |
+|              |        |Protocol-level bug that enables tricking contracts into sending funds to arbitrary addresses            |
+|              |**High (POC required)**    |Unintended chain split (Network partition) with localized impacts                    |
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
-|              |        |A single contract becomes unusable after the exploit (i.e. contract bricked)                            |
-|              |<div style="width:100px">**Medium**</div>  |High compute consumption by validator/mining nodes                                                      |
+|              |        |Protocol-level bug preventing contracts from using their funds                                          |      
+|              |        |Protocol-level bug rendering a single contract unusable after the exploit (i.e. contract bricked)       |
+|              |**Medium**  |High compute consumption by validator/mining nodes                                                  |
 |              |        |Attacks against thin clients                                                                            |
 |              |        |DoS of greater than 30% of validator or miner nodes and does not shut down the network                  |
 |              |        |EVM instruction fails to execute, in a general way                                                      |
 |              |        |Inability to deploy a contract under a specific circumstances                                           |
-|              |**Low**     |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network|
+|              |**Low** |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network|
 |              |        |Underpricing transaction fees relative to computation time                                              |
 |              |        |Contract on the platform fails to deliver promised returns, but doesn't lose values                     |
 |              |        |EVM instruction fails to execute when provided with concrete parameters                                 |
