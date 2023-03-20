@@ -27,7 +27,7 @@ The following is a guide for how points may be allocated to issues reported base
   - High: up to 100,000 points
   - Medium: up to 25,000 points
   - Low: up to 10,000 points
-  - Note: up to 5,000 points
+  - None: up to 5,000 points
 
 Where currently 1 point = 1 USD (payable in USD, DAI or FIL).
 
