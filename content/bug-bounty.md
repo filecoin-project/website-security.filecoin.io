@@ -69,7 +69,6 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |EVM instruction fails to execute when provided with concrete parameters                                 |
 
 - **Important notice for the issue criteria that is presented in the table:**
-  - Criteria and the wording for this table might be refined in the next 5-7 working days since we are still in the early days for the FEVM release.
   - Security reports that are not explicitly listed in the table will still be reviewed and matched up against the severity classification based on their impact.
 
   <br>
