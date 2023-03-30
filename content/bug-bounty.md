@@ -126,7 +126,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
  - Vulnerabilities previously submitted by another person or identified in a published audit report are not eligible for bug bounty rewards.
  
- - Any smart contract deployed by Dapp developers on the FVM platfom is not a part of the bug bounty program.
+ - Any smart contract deployed on the FVM platfom is not a part of the bug bounty program.
 
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
