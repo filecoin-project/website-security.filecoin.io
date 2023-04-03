@@ -51,13 +51,13 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Direct loss of funds                                                                                    |
 |              |        |Permanent, repeatable freezing of funds affecting core protocol areas (fix requires hard fork)          |
 |              |        |RPC API crash capable of impacting block production                                                     |
-|              |        |Protocol-level bug causing the inability for developers to deploy new smart contracts                   |
 |              |        |Protocol-level bug causing breakage of all contracts deployed on the chain                              |
 |              |        |Protocol-level bug that enables tricking contracts into sending funds to arbitrary addresses            |
 |              |**High(POC required)**    |Unintended chain split (Network partition) with localized impacts                    |
 |              |        |Transient consensus failures                                                                            |
 |              |        |Inability to propagate new transactions                                                                 |
-|              |        |Protocol-level bug preventing contracts from using their funds                                          |      
+|              |        |Protocol-level bug preventing contracts from using their funds                                          | 
+|              |        |Protocol-level bug causing the inability for developers to deploy new smart contracts                   |
 |              |        |Protocol-level bug rendering a single contract unusable after the exploit (i.e. contract bricked)       |
 |              |**Medium**  |High compute consumption by validator/mining nodes                                                  |
 |              |        |Attacks against thin clients                                                                            |
@@ -66,6 +66,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 |              |        |Inability to deploy a contract under a specific circumstances                                           |
 |              |**Low** |DoS of greater than 10% but less than 30% of validator or miner nodes and does not shut down the network|
 |              |        |Underpricing transaction fees relative to computation time                                              |
+|              |        |Contract on the platform fails to deliver promised returns, but doesn’t lose values                                              |
 |              |        |EVM instruction fails to execute when provided with concrete parameters                                 |
 
 - **Important notice for the issue criteria that is presented in the table:**
