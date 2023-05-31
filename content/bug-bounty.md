@@ -176,9 +176,12 @@ We encourage good-faith security research and ask that you follow these guidelin
 
  <details>
  <summary><strong><size="25px">2023</strong></summary>
-
+ 
  - <a href="https://www.twitter.com/holybugx" target="_blank">HolyBugx</a>
  - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katawal</a>
+ - <a href="https://www.linkedin.com/in/gaurav-bhatia-bb290916a/" target="_blank">Gaurav Bhatia</a>
+ - <a href="https://www.linkedin.com/in/pratik-shetty-94460a1aa/" target="_blank">Pratik Shetty</a>
+ - <a href="https://www.linkedin.com/in/krutikathakur/" target="_blank">Krutika Thakur</a>
  </details>
 
  <details>
