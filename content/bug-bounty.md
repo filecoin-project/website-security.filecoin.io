@@ -176,7 +176,8 @@ We encourage good-faith security research and ask that you follow these guidelin
 
  <details>
  <summary><strong><size="25px">2023</strong></summary>
- 
+ - <a href="https://www.twitter.com/m7mdharon" target="_blank">Mohamed Haroun</a>
+ - <a href="https://www.linkedin.com/in/corriesloot" target="_blank">Corrie Sloot</a>
  - <a href="https://www.twitter.com/holybugx" target="_blank">HolyBugx</a>
  - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katawal</a>
  - <a href="https://www.linkedin.com/in/gaurav-bhatia-bb290916a/" target="_blank">Gaurav Bhatia</a>
