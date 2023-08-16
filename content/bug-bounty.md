@@ -71,6 +71,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
 - **Important notice for the issue criteria that is presented in the table:**
   - Security reports that are not explicitly listed in the table will still be reviewed and matched up against the severity classification based on their impact.
+  - We have payment terms of upto 30 days after the invoice is generated.
 
   <br>
 
