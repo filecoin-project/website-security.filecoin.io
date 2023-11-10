@@ -29,7 +29,7 @@ The following is a guide for how points may be allocated to issues reported base
   - Low: up to 10,000 points
   - None: up to 5,000 points
 
-Where currently 1 point = 1 USD (payable in USD, DAI or FIL).
+Where currently 1 point = 1 USD (payable in USD, USDC).
 
 Higher rewards will also be paid to reported vulnerabilities that offer quality written descriptions, test code, scripts and detailed instructions, and well-documented fixes.
 
