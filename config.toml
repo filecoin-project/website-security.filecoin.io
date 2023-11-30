@@ -55,6 +55,11 @@ name = "Security Updates"
 URL = "updates"
 weight = 4
 
+[[menu.main]]
+name = "Leaderboard"
+URL = "thanks"
+weight = 5
+
 #################### default parameters ################################
 [params]
 # Meta data
