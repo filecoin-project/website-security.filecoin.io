@@ -6,7 +6,7 @@ description: "Thank you page for security researchers"
 ---
 #### Thank you for the contributions to make Filecoin secure.
 
-| Reporter | Total Bounty Received |
+| Reporter | Total Points |
 |---------|----------------------|
 | zhaogf | 22737 |
 | MajorExcitement | 15625 |
