@@ -162,7 +162,7 @@ We encourage good-faith security research and ask that you follow these guidelin
 
 - If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately
 
-- Play by the rules. This includes following this policy as well as any other relevant agreements
+- Play by the rules. This includes following the law, this policy and any other relevant agreements and policies, including the abiding by the [Filecoin Community Code of Conduct](https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md) in all communications, discussions or posts related to this program or your discovered vulnerability.
 
 - Use only official channels (email security@filecoin.org or Keybase chat) to discuss vulnerability information with us
 
