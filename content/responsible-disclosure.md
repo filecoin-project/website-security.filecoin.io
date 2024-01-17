@@ -15,7 +15,7 @@ When working with us according to this policy, you can expect us to:
 
 We’ve created two main channels for reporting:
 
-- Send an email to [security@filecoin.org](mailto:security@filecoin.org). This email is monitored everyday. Please use our PGP key to encrypt sensitive information.
+- Send an email to [security@filecoin.org](mailto:security@filecoin.org). This email is monitored everyday. Please use our [PGP](https://github.com/filecoin-project/community/blob/master/public.key) key to encrypt sensitive information.
 - Alternatively, request to join the filecoin-sec team on Keybase, where we can set up a private channel to discuss.
 
 Please do not file a public issue or discuss the vulnerability in public places like Slack, Twitter, etc.
