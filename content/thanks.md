@@ -17,6 +17,7 @@ description: "Thank you page for security researchers"
 | Milos Security | 6500 |
 | robyhugeman | 5287 |
 | Maksim Skorikov | 4375 |
+| Qiuhao Li | 3613 |
 | yangming | 3250 |
 | Yonathan Michalsky | 2500 |
 | Ben Hamadi | 2500 |
