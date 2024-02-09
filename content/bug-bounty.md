@@ -132,7 +132,7 @@ In scope for our Bug Bounty program are vulnerabilities in the core protocol and
 
  - Public disclosure of a vulnerability makes it ineligible for a bug bounty.
 
- Filecoin’s core development team, employees, ex-employees of either Protocol Labs, the Filecoin Foundation and others paid by these organizations to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
+Current and former members of the Filecoin core development team, and current and former employees, contractors and others who have been paid by Protocol Labs or the Filecoin Foundation to work on the Filecoin project, indirectly or directly, are not eligible for bug bounty rewards.
  
 
 
