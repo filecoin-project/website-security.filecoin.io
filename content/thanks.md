@@ -8,6 +8,7 @@ description: "Thank you page for security researchers"
 
 | Reporter | Total Points |
 |---------|----------------------|
+| Marten Seeman | 92000 |
 | zhaogf | 22737 |
 | MajorExcitement | 15625 |
 | Joran Honig | 13212 |
@@ -19,6 +20,7 @@ description: "Thank you page for security researchers"
 | Maksim Skorikov | 4375 |
 | Qiuhao Li | 3613 |
 | yangming | 3250 |
+| Axt Attila | 2850 |
 | Yonathan Michalsky | 2500 |
 | Ben Hamadi | 2500 |
 | Swapnil Kothawade | 750 |
