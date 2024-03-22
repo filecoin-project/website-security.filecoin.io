@@ -19,7 +19,7 @@ submissions:
 
 🚀 ***Exciting News! Our Bug Bounty Program is Getting a Makeover!*** 🚀
 
-We are thrilled to announce that we are revamping our bug bounty program and moving it over to Immunefi, a leading platform for decentralized finance security. This transition represents a significant upgrade in our commitment to security and transparency.
+We are thrilled to announce that we are revamping our bug bounty program and moving it over to [Immunefi](https://immunefi.com/bounty/filecoin/). This transition represents a significant upgrade in our commitment to security and transparency.
 
 ***Please note that vulnerabilities reported via security@filecoin.org will no longer be eligible for monetary rewards. We encourage you to use the Immunefi platform for all future submissions to qualify for rewards.***
 
