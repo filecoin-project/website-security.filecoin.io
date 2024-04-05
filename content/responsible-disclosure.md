@@ -16,7 +16,7 @@ Please report all vulnerabilities through this program, and please do not file a
 
 #### Process overview
 
-1. A security researcher reports a vulnerability via Immunefi
+1. A security researcher reports a vulnerability via Immunefi.
 1. Filecoin Foundation security team will designate a Response Manager in charge of a particular report based on expertise and availability, who will  acknowledge receipt of the report in an initial response to the researcher.
 1. The Response Manager will evaluate the vulnerability and assign an initial OWASP Severity estimate. They may optionally also contact the researcher for more information.
 1. Based on the vulnerability’s potential severity, additional security team members will be alerted to review and develop a patch.
