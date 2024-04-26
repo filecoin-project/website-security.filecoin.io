@@ -14,7 +14,10 @@ Apart from monetary rewards, we do maintain a Hall of Fame to recognize the cont
 
 If you wish to publish your bug findings, please refer to our disclosure [policy](https://security.filecoin.io/responsible-disclosure/) for guidelines and procedures.
 
-If you've any general security concerns or questions about bug bounty program, don't hesitate to reach out via [security\@filecoin.org](mailto:security@filecoin.org?subject=Security).
+If you've any general security concerns or questions about bug bounty program, don't hesitate to reach out via [security\@filecoin.org](mailto:security@filecoin.org?subject=Security). 
+
+
+***Please note that vulnerabilities reported via security@filecoin.org will no longer be eligible for monetary rewards. We encourage you to use the Immunefi platform for all future submissions to qualify for rewards.***
 
 
 
