@@ -56,7 +56,7 @@ URL = "updates"
 weight = 4
 
 [[menu.main]]
-name = "Leaderboard"
+name = "Thanks"
 URL = "thanks"
 weight = 5
 
