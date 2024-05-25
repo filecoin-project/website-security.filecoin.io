@@ -12,7 +12,7 @@ description: "Thank you page for security researchers"
  - <a href="https://www.twitter.com/m7mdharon" target="_blank">Mohamed Haroun</a><br>
  - <a href="https://www.linkedin.com/in/corriesloot" target="_blank">Corrie Sloot</a><br>
  - <a href="https://www.twitter.com/holybugx" target="_blank">HolyBugx</a><br>
- - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katawal</a><br>
+ - <a href="https://twitter.com/milankatwal99" target="_blank">Milan Katwal</a><br>
  - <a href="https://www.linkedin.com/in/gaurav-bhatia-bb290916a/" target="_blank">Gaurav Bhatia</a><br>
  - <a href="https://www.linkedin.com/in/pratik-shetty-94460a1aa/" target="_blank">Pratik Shetty</a><br>
  - <a href="https://www.linkedin.com/in/krutikathakur/" target="_blank">Krutika Thakur</a><br>
